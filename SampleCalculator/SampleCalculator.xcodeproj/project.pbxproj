@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7250251E23B8865D00F4D3A6 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7250251D23B8865D00F4D3A6 /* Calculator.swift */; };
 		726B829E23B85BBE00BF8E8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B829D23B85BBE00BF8E8E /* AppDelegate.swift */; };
 		726B82A023B85BBE00BF8E8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B829F23B85BBE00BF8E8E /* SceneDelegate.swift */; };
 		726B82A223B85BBE00BF8E8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B82A123B85BBE00BF8E8E /* ContentView.swift */; };
 		726B82A423B85BC100BF8E8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 726B82A323B85BC100BF8E8E /* Assets.xcassets */; };
 		726B82A723B85BC100BF8E8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 726B82A623B85BC100BF8E8E /* Preview Assets.xcassets */; };
 		726B82AA23B85BC100BF8E8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726B82A823B85BC100BF8E8E /* LaunchScreen.storyboard */; };
-		726B82B523B85BC100BF8E8E /* SampleCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B82B423B85BC100BF8E8E /* SampleCalculatorTests.swift */; };
+		72BC873A23B896360053908C /* OtherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BC873923B896360053908C /* OtherTests.swift */; };
+		72BC873C23B89FDC0053908C /* SampleCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BC873B23B89FDC0053908C /* SampleCalculatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7250251D23B8865D00F4D3A6 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		726B829A23B85BBE00BF8E8E /* SampleCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		726B829D23B85BBE00BF8E8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		726B829F23B85BBE00BF8E8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,8 +39,9 @@
 		726B82A923B85BC100BF8E8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		726B82AB23B85BC100BF8E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		726B82B023B85BC100BF8E8E /* SampleCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		726B82B423B85BC100BF8E8E /* SampleCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCalculatorTests.swift; sourceTree = "<group>"; };
 		726B82B623B85BC100BF8E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72BC873923B896360053908C /* OtherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherTests.swift; sourceTree = "<group>"; };
+		72BC873B23B89FDC0053908C /* SampleCalculatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleCalculatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 				726B829D23B85BBE00BF8E8E /* AppDelegate.swift */,
 				726B829F23B85BBE00BF8E8E /* SceneDelegate.swift */,
 				726B82A123B85BBE00BF8E8E /* ContentView.swift */,
+				7250251D23B8865D00F4D3A6 /* Calculator.swift */,
 				726B82A323B85BC100BF8E8E /* Assets.xcassets */,
 				726B82A823B85BC100BF8E8E /* LaunchScreen.storyboard */,
 				726B82AB23B85BC100BF8E8E /* Info.plist */,
@@ -101,7 +106,8 @@
 		726B82B323B85BC100BF8E8E /* SampleCalculatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				726B82B423B85BC100BF8E8E /* SampleCalculatorTests.swift */,
+				72BC873B23B89FDC0053908C /* SampleCalculatorTests.swift */,
+				72BC873923B896360053908C /* OtherTests.swift */,
 				726B82B623B85BC100BF8E8E /* Info.plist */,
 			);
 			path = SampleCalculatorTests;
@@ -209,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				726B829E23B85BBE00BF8E8E /* AppDelegate.swift in Sources */,
+				7250251E23B8865D00F4D3A6 /* Calculator.swift in Sources */,
 				726B82A023B85BBE00BF8E8E /* SceneDelegate.swift in Sources */,
 				726B82A223B85BBE00BF8E8E /* ContentView.swift in Sources */,
 			);
@@ -218,7 +225,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				726B82B523B85BC100BF8E8E /* SampleCalculatorTests.swift in Sources */,
+				72BC873A23B896360053908C /* OtherTests.swift in Sources */,
+				72BC873C23B89FDC0053908C /* SampleCalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +371,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SampleCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = ZQQ8VJZTQ6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SampleCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -382,7 +392,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SampleCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = ZQQ8VJZTQ6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SampleCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -402,6 +414,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQQ8VJZTQ6;
 				INFOPLIST_FILE = SampleCalculatorTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -423,6 +436,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQQ8VJZTQ6;
 				INFOPLIST_FILE = SampleCalculatorTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (

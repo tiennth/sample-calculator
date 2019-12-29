@@ -1,5 +1,5 @@
 //
-//  SampleCalculatorTests.swift
+//  OtherTests.swift
 //  SampleCalculatorTests
 //
 //  Created by Tien on 12/29/19.
@@ -7,12 +7,9 @@
 //
 
 import XCTest
-@testable import SampleCalculator
 
-class SampleCalculatorTests: XCTestCase {
+class OtherTests: XCTestCase {
 
-    let calculator = Calculator()
-    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -22,13 +19,7 @@ class SampleCalculatorTests: XCTestCase {
     }
 
     func testID01() {
-        let addResult = calculator.add(x: 4, y: 6)
-        XCTAssertEqual(addResult, 10)
-    }
-
-    func testID02() {
-        let addResult = calculator.subtract(x: 10, y: 6)
-        XCTAssertEqual(addResult, 4)
+        XCTAssertEqual(3 + 3, 6)
     }
 
     func testPerformanceExample() {

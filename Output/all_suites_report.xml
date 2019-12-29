@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='SampleCalculatorTests.xctest' tests='5' failures='0'>
+  <testsuite name='SampleCalculatorTests.OtherTests' tests='2' failures='0'>
+    <testcase classname='SampleCalculatorTests.OtherTests' name='testID01' time='0.001'/>
+    <testcase classname='SampleCalculatorTests.OtherTests' name='testPerformanceExample' time='0.282'/>
+  </testsuite>
+  <testsuite name='SampleCalculatorTests.SampleCalculatorTests' tests='3' failures='0'>
+    <testcase classname='SampleCalculatorTests.SampleCalculatorTests' name='testID01' time='0.001'/>
+    <testcase classname='SampleCalculatorTests.SampleCalculatorTests' name='testID02' time='0.001'/>
+    <testcase classname='SampleCalculatorTests.SampleCalculatorTests' name='testPerformanceExample' time='0.253'/>
+  </testsuite>
+</testsuites>
